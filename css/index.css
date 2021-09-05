@@ -132,10 +132,13 @@ table {
 	box-sizing: border-box;
 }
 
-html,
+html {
+	font-size: 62.5%;
+}
 body {
 	height: 100%;
 	font-family: "Roboto", sans-serif;
+	font-size: 1.6rem;
 }
 
 h1,
@@ -306,14 +309,21 @@ section.midContent div {
 	width: 49%;
 	border-bottom: 1px dotted gray;
 	margin: 2% 0;
+	padding-bottom: 3%;
 }
 section.midContent div h2 {
 	padding-top: 2%;
 }
 section.midContent div a {
+	font-size: 1.2rem;
 	text-decoration: none;
-	border: 1px solid black;
-	border-radius: 10%;
-	margin: 0;
-	padding: 1%;
+	border: 2px solid black;
+	border-radius: 7px;
+	padding: 1% 2%;
+}
+section.midContent div p {
+	padding-bottom: 4%;
+}
+section.bottomContent {
+	margin: 2%;
 }
